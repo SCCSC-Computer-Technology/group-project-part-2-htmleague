@@ -1,0 +1,166 @@
+﻿@page
+@model TeamsNBAModel
+@{
+    ViewData["Title"] = "NBA Teams";
+
+    // Get sort direction
+    string GetSortDirection(string column)
+    {
+        if (Model.SortColumn == column)
+        {
+            if (Model.SortDirection == "Ascending")
+            {
+                return "Descending";
+            }
+            else
+            {
+                return "Ascending";
+            }
+        }
+        else
+        {
+            return "Ascending";
+        }
+    }
+
+    // Get sort indicator
+    string GetSortIndicator(string column)
+    {
+        if (Model.SortColumn == column)
+        {
+            if (Model.SortDirection == "Ascending")
+            {
+                return "▲";
+            }
+            else
+            {
+                return "▼";
+            }
+        }
+        else
+        {
+            return "";
+        }
+    }
+}
+
+<h2>NBA Teams</h2>
+
+<table class="team-table">
+    <thead>
+        <tr>
+            <th>
+                <a asp-page="./NBA" asp-route-sortColumn="Name"
+                   asp-route-sortDirection="@GetSortDirection("Name")">
+                    Team @GetSortIndicator("Name")
+                </a>
+            </th>
+            <th>
+                <a asp-page="./NBA" asp-route-sortColumn="Abbr"
+                   asp-route-sortDirection="@GetSortDirection("Abbr")">
+                    Abbr. @GetSortIndicator("Abbr")
+                </a>
+            </th>
+            <th>
+                <a asp-page="./NBA" asp-route-sortColumn="Points"
+                   asp-route-sortDirection="@GetSortDirection("Points")">
+                    Points @GetSortIndicator("Points")
+                </a>
+            </th>
+            <th>
+                <a asp-page="./NBA" asp-route-sortColumn="FieldGoals"
+                   asp-route-sortDirection="@GetSortDirection("FieldGoals")">
+                    Field Goals @GetSortIndicator("FieldGoals")
+                </a>
+            </th>
+            <th>
+                <a asp-page="./NBA" asp-route-sortColumn="ThreePoints"
+                   asp-route-sortDirection="@GetSortDirection("ThreePoints")">
+                    3 Points @GetSortIndicator("ThreePoints")
+                </a>
+            </th>
+            <th>
+                <a asp-page="./NBA" asp-route-sortColumn="Assists"
+                   asp-route-sortDirection="@GetSortDirection("Assists")">
+                    Assists @GetSortIndicator("Assists")
+                </a>
+            </th>
+            <th>
+                <a asp-page="./NBA" asp-route-sortColumn="Rebounds"
+                   asp-route-sortDirection="@GetSortDirection("Rebounds")">
+                    Rebounds @GetSortIndicator("Rebounds")
+                </a>
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model.Teams != null)
+        {
+            foreach (var team in Model.Teams)
+            {
+                <tr>
+                    <td>
+                        <a asp-page="/Statistics/Team"
+                           asp-route-id="@team.Team?.TeamID"
+                           asp-route-sport="NBA">
+                            @team.Team?.TeamName
+                        </a>
+                    </td>
+                    <td>@team.Team?.TeamAbreviation</td>
+                    <td>@team.TotalPoints</td>
+                    <td>@team.FieldGoals</td>
+                    <td>@team.ThreePoints</td>
+                    <td>@team.Assists</td>
+                    <td>@team.OffensiveRebounds</td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>
+
+<style>
+    .tabs {
+        margin-bottom: 20px;
+    }
+
+    .tab {
+        display: inline-block;
+        padding: 10px 20px;
+        background: #e0f0e9;
+        margin-right: 5px;
+        border-radius: 5px;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .selected {
+        background: #27ae60;
+        color: white;
+    }
+
+    .team-table {
+        width: 100%;
+        border-collapse: collapse;
+        background: white;
+    }
+
+        .team-table th, .team-table td {
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+
+        .team-table th {
+            background: #2ecc71;
+            color: white;
+        }
+
+            .team-table th a {
+                color: white;
+                text-decoration: none;
+                display: block;
+            }
+
+                .team-table th a:hover {
+                    text-decoration: underline;
+                }
+</style>

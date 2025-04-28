@@ -1,0 +1,123 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = HTMLeague_WebApplication
+build_property.RootNamespace = HTMLeague_WebApplication
+build_property.ProjectDir = C:\Users\princ\source\repos\HMTLeague\HTMLeague-WebApplication\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\princ\source\repos\HMTLeague\HTMLeague-WebApplication
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/princ/source/repos/HMTLeague/HTMLeague-WebApplication/Pages/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/princ/source/repos/HMTLeague/HTMLeague-WebApplication/Pages/Account/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/princ/source/repos/HMTLeague/HTMLeague-WebApplication/Pages/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/princ/source/repos/HMTLeague/HTMLeague-WebApplication/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/princ/source/repos/HMTLeague/HTMLeague-WebApplication/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/princ/source/repos/HMTLeague/HTMLeague-WebApplication/Pages/Players.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGxheWVycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/princ/source/repos/HMTLeague/HTMLeague-WebApplication/Pages/Players/CSGO.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGxheWVyc1xDU0dPLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/princ/source/repos/HMTLeague/HTMLeague-WebApplication/Pages/Players/NBA.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGxheWVyc1xOQkEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/princ/source/repos/HMTLeague/HTMLeague-WebApplication/Pages/Players/NFL.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGxheWVyc1xORkwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/princ/source/repos/HMTLeague/HTMLeague-WebApplication/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/princ/source/repos/HMTLeague/HTMLeague-WebApplication/Pages/SportChoice.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3BvcnRDaG9pY2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/princ/source/repos/HMTLeague/HTMLeague-WebApplication/Pages/Sports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3BvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/princ/source/repos/HMTLeague/HTMLeague-WebApplication/Pages/Statistics.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3RhdGlzdGljcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/princ/source/repos/HMTLeague/HTMLeague-WebApplication/Pages/Statistics/Player.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3RhdGlzdGljc1xQbGF5ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/princ/source/repos/HMTLeague/HTMLeague-WebApplication/Pages/Statistics/Team.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3RhdGlzdGljc1xUZWFtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/princ/source/repos/HMTLeague/HTMLeague-WebApplication/Pages/TeamsCSGO.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGVhbXNDU0dPLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/princ/source/repos/HMTLeague/HTMLeague-WebApplication/Pages/TeamsNBA.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGVhbXNOQkEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/princ/source/repos/HMTLeague/HTMLeague-WebApplication/Pages/TeamsNFL.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGVhbXNORkwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/princ/source/repos/HMTLeague/HTMLeague-WebApplication/Pages/Teams/CSGO.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGVhbXNcQ1NHTy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/princ/source/repos/HMTLeague/HTMLeague-WebApplication/Pages/Teams/NBA.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGVhbXNcTkJBLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/princ/source/repos/HMTLeague/HTMLeague-WebApplication/Pages/Teams/NFL.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGVhbXNcTkZMLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/princ/source/repos/HMTLeague/HTMLeague-WebApplication/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/princ/source/repos/HMTLeague/HTMLeague-WebApplication/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/princ/source/repos/HMTLeague/HTMLeague-WebApplication/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-vodhe64fqe

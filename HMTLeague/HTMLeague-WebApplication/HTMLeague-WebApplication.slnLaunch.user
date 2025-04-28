@@ -1,0 +1,19 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "HTMLeague-WebApplication.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "..\\HTMLeagueDataContext\\HTMLeagueDataContext.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "..\\HTMLeagueGroupProjectAPI\\HTMLeagueGroupProjectAPI.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

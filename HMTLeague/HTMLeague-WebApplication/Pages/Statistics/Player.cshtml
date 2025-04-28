@@ -1,0 +1,317 @@
+﻿@page
+@model HTMLeague_WebApplication.Pages.Statistics.PlayerModel
+@{
+    ViewData["Title"] = "Player Statistics";
+}
+
+<h2>Player Statistics</h2>
+@if (Model.PlayerInfo != null)
+{
+    <div class="stat-container">
+        <h3>Player Name: @Model.PlayerInfo.Name</h3>
+        <p>
+            <strong>Team:</strong>
+            @if (Model.PlayerInfo.TeamId.HasValue)
+            {
+                <a asp-page="/Statistics/Team" asp-route-Id="@Model.PlayerInfo.TeamId" asp-route-Sport="@Model.Sport">
+                    @Model.PlayerInfo.TeamName
+                </a>
+            }
+            else
+            {
+                @Model.PlayerInfo.TeamName
+            }
+        </p>
+
+        @if (!Model.IsEditMode)
+        {
+            <!-- View Mode -->
+            @if (Model.PlayerInfo.StatObject is HTMLeagueGroupProjectAPI.Data.DataModels.CsgoPlayerStat csgoStat)
+            {
+                <h4>CS:GO Player Stats</h4>
+                <p><strong>Total Maps:</strong> @csgoStat.TotalMaps</p>
+                <p><strong>Total Rounds:</strong> @csgoStat.TotalRounds</p>
+                <p><strong>K/D Diff:</strong> @csgoStat.KdDiff</p>
+                <p><strong>K/D Ratio:</strong> @csgoStat.Kd</p>
+                <p><strong>Rating:</strong> @csgoStat.Rating</p>
+            }
+            else if (Model.PlayerInfo.StatObject is HTMLeagueGroupProjectAPI.Data.DataModels.NbaPlayerCareerStat nbaStat)
+            {
+                <h4>NBA Player Stats</h4>
+                <p><strong>Field Goals:</strong> @nbaStat.FieldGoals</p>
+                <p><strong>Free Throws:</strong> @nbaStat.FreeThrows</p>
+                <p><strong>Personal Fouls:</strong> @nbaStat.PersonalFouls</p>
+                <p><strong>Total Points:</strong> @nbaStat.TotalPoints</p>
+            }
+            else if (Model.PlayerInfo.StatObject is HTMLeague_WebApplication.Pages.Statistics.PlayerModel.NflPlayerStatsViewModel nflStat)
+            {
+                <h4>NFL Player Stats</h4>
+                @if (nflStat.Pass != null)
+                {
+                    <h5>Passing</h5>
+                    <p><strong>Touchdown Passes:</strong> @nflStat.Pass.TdPasses</p>
+                    <p><strong>Passing Yards:</strong> @nflStat.Pass.PassingYards</p>
+                }
+                @if (nflStat.Rush != null)
+                {
+                    <h5>Rushing</h5>
+                    <p><strong>Rushing Yards:</strong> @nflStat.Rush.RushYards</p>
+                    <p><strong>Rush Touchdowns:</strong> @nflStat.Rush.RushTds</p>
+                }
+                @if (nflStat.Receive != null)
+                {
+                    <h5>Receiving</h5>
+                    <p><strong>Receptions:</strong> @nflStat.Receive.Receptions</p>
+                    <p><strong>Receiving Yards:</strong> @nflStat.Receive.ReceivingYards</p>
+                    <p><strong>Receiving Touchdowns:</strong> @nflStat.Receive.ReceivingTds</p>
+                }
+            }
+        }
+        else
+        {
+            <!-- Edit Mode -->
+            <form method="post">
+                <input type="hidden" asp-for="Id" />
+                <input type="hidden" asp-for="Sport" />
+
+                @if (Model.PlayerInfo.StatObject is HTMLeagueGroupProjectAPI.Data.DataModels.CsgoPlayerStat csgoStat)
+                {
+                    <h4>CS:GO Player Stats</h4>
+                    <input type="hidden" asp-for="CsgoStat.PlayerID" value="@csgoStat.PlayerID" />
+
+                    <div class="form-group">
+                        <label>Total Maps:</label>
+                        <input class="form-control" asp-for="CsgoStat.TotalMaps" value="@csgoStat.TotalMaps" />
+                    </div>
+                    <div class="form-group">
+                        <label>Total Rounds:</label>
+                        <input class="form-control" asp-for="CsgoStat.TotalRounds" value="@csgoStat.TotalRounds" />
+                    </div>
+                    <div class="form-group">
+                        <label>K/D Diff:</label>
+                        <input class="form-control" asp-for="CsgoStat.KdDiff" value="@csgoStat.KdDiff" />
+                    </div>
+                    <div class="form-group">
+                        <label>K/D Ratio:</label>
+                        <input class="form-control" asp-for="CsgoStat.Kd" value="@csgoStat.Kd" />
+                    </div>
+                    <div class="form-group">
+                        <label>Rating:</label>
+                        <input class="form-control" asp-for="CsgoStat.Rating" value="@csgoStat.Rating" />
+                    </div>
+                }
+                else if (Model.PlayerInfo.StatObject is HTMLeagueGroupProjectAPI.Data.DataModels.NbaPlayerCareerStat nbaStat)
+                {
+                    <h4>NBA Player Stats</h4>
+                    <input type="hidden" asp-for="NbaStat.PlayerID" value="@nbaStat.PlayerID" />
+
+                    <div class="form-group">
+                        <label>Field Goals:</label>
+                        <input class="form-control" asp-for="NbaStat.FieldGoals" value="@nbaStat.FieldGoals" />
+                    </div>
+                    <div class="form-group">
+                        <label>Free Throws:</label>
+                        <input class="form-control" asp-for="NbaStat.FreeThrows" value="@nbaStat.FreeThrows" />
+                    </div>
+                    <div class="form-group">
+                        <label>Personal Fouls:</label>
+                        <input class="form-control" asp-for="NbaStat.PersonalFouls" value="@nbaStat.PersonalFouls" />
+                    </div>
+                    <div class="form-group">
+                        <label>Total Points:</label>
+                        <input class="form-control" asp-for="NbaStat.TotalPoints" value="@nbaStat.TotalPoints" />
+                    </div>
+                }
+                else if (Model.PlayerInfo.StatObject is HTMLeague_WebApplication.Pages.Statistics.PlayerModel.NflPlayerStatsViewModel nflStat)
+                {
+                    <h4>NFL Player Stats</h4>
+                    @if (nflStat.Pass != null)
+                    {
+                        <h5>Passing</h5>
+                        <input type="hidden" asp-for="NflPassStat.PlayerID" value="@nflStat.Pass.PlayerID" />
+
+                        <div class="form-group">
+                            <label>Touchdown Passes:</label>
+                            <input class="form-control" asp-for="NflPassStat.TdPasses" value="@nflStat.Pass.TdPasses" />
+                        </div>
+                        <div class="form-group">
+                            <label>Passing Yards:</label>
+                            <input class="form-control" asp-for="NflPassStat.PassingYards" value="@nflStat.Pass.PassingYards" />
+                        </div>
+                    }
+                    @if (nflStat.Rush != null)
+                    {
+                        <h5>Rushing</h5>
+                        <input type="hidden" asp-for="NflRushStat.PlayerID" value="@nflStat.Rush.PlayerID" />
+
+                        <div class="form-group">
+                            <label>Rushing Yards:</label>
+                            <input class="form-control" asp-for="NflRushStat.RushYards" value="@nflStat.Rush.RushYards" />
+                        </div>
+                        <div class="form-group">
+                            <label>Rush Touchdowns:</label>
+                            <input class="form-control" asp-for="NflRushStat.RushTds" value="@nflStat.Rush.RushTds" />
+                        </div>
+                    }
+                    @if (nflStat.Receive != null)
+                    {
+                        <h5>Receiving</h5>
+                        <input type="hidden" asp-for="NflReceiveStat.PlayerID" value="@nflStat.Receive.PlayerID" />
+                        <div class="form-group">
+                            <label>Receptions:</label>
+                            <input class="form-control" asp-for="NflReceiveStat.Receptions" value="@nflStat.Receive.Receptions" />
+                        </div>
+                        <div class="form-group">
+                            <label>Receiving Yards:</label>
+                            <input class="form-control" asp-for="NflReceiveStat.ReceivingYards" value="@nflStat.Receive.ReceivingYards" />
+                        </div>
+                        <div class="form-group">
+                            <label>Receiving Touchdowns:</label>
+                            <input class="form-control" asp-for="NflReceiveStat.ReceivingTds" value="@nflStat.Receive.ReceivingTds" />
+                        </div>
+                    }
+                }
+
+                <div class="button-group">
+                    <button type="submit" asp-page-handler="Update" class="btn btn-primary">Save Changes</button>
+                    <button type="button" id="cancelEditBtn" class="btn btn-secondary">Cancel</button>
+                </div>
+            </form>
+
+            <!-- Delete Button with confirm dialog -->
+            <div class="delete-section">
+                <form method="post" id="deleteForm">
+                    <input type="hidden" asp-for="Id" />
+                    <input type="hidden" asp-for="Sport" />
+                    <button type="button" id="deleteBtn" class="btn btn-danger">Delete Player</button>
+                </form>
+            </div>
+
+            <!-- Confirmation -->
+            <div class="modal fade" id="deleteModal" tabindex="-1" role="dialog" aria-labelledby="deleteModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="deleteModalLabel">Confirm Deletion</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            Are you sure you want to delete this player? This action cannot be undone.
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                            <button type="button" id="confirmDeleteBtn" class="btn btn-danger">Delete</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+
+    <!-- Edit mode toggle button -->
+    @if (!Model.IsEditMode)
+    {
+        <div class="edit-button-container">
+            <form method="post">
+                <input type="hidden" asp-for="Id" />
+                <input type="hidden" asp-for="Sport" />
+                <button type="submit" asp-page-handler="Edit" class="btn btn-primary edit-button">
+                    <i class="fas fa-edit"></i> Edit
+                </button>
+            </form>
+        </div>
+    }
+}
+else
+{
+    <p>No data available.</p>
+}
+
+@section Scripts {
+    <script>
+        $(document).ready(function() {
+            // Cancel Edit Mode
+            $("#cancelEditBtn").click(function() {
+                window.location.href = window.location.pathname + "?id=@Model.Id&sport=@Model.Sport";
+            });
+
+            // Delete confirmation
+            $("#deleteBtn").click(function() {
+                $("#deleteModal").modal("show");
+            });
+
+            // Close modal with cancel button
+            $(".btn-secondary[data-dismiss='modal'], .close[data-dismiss='modal']").click(function() {
+                $("#deleteModal").modal("hide");
+            });
+
+            // Delete confirmation button
+            $("#confirmDeleteBtn").click(function() {
+                $("#deleteForm").attr("action", "?handler=Delete");
+                $("#deleteForm").submit();
+            });
+        });
+    </script>
+}
+
+<style>
+    .stat-container {
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        position: relative;
+        margin-bottom: 50px;
+    }
+
+        .stat-container h3, h4, h5 {
+            margin-top: 15px;
+        }
+
+        .stat-container a {
+            text-decoration: none;
+            color: darkblue;
+        }
+
+    .form-group {
+        margin-bottom: 15px;
+    }
+
+    .form-control {
+        width: 100%;
+        padding: 8px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+    }
+
+    .button-group {
+        margin-top: 20px;
+        display: flex;
+        gap: 10px;
+    }
+
+    .edit-button-container {
+        position: fixed;
+        bottom: 30px;
+        right: 30px;
+    }
+
+    .edit-button {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    }
+
+    .delete-section {
+        margin-top: 20px;
+        padding-top: 20px;
+        border-top: 1px solid #eee;
+    }
+</style>
