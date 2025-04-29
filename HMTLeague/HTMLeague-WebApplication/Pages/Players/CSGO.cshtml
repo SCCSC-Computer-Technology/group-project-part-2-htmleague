@@ -44,7 +44,10 @@
     }
 }
 
-<h2>CS:GO Players</h2>
+<div class="header-container">
+    <h2 class="text-color">CS:GO Players</h2>
+    <a href="/Teams/CSGO" class="teams-button">Teams</a>
+</div>
 
 <table class="team-table">
     <thead>
@@ -138,6 +141,19 @@
 </table>
 
 <style>
+
+    .header-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+    body {
+        background-color: var(--dark-background)
+    }
+
     .tabs {
         margin-bottom: 20px;
     }
@@ -153,28 +169,58 @@
     }
 
     .selected {
-        background: #27ae60;
-        color: white;
+        background: var(--table-head-color);
+        color: var(--max-contrast-color);
     }
+
+    .text-color {
+        color: var(--max-contrast-color)
+    }
+
+    td {
+        color: var(--max-contrast-color)
+    }
+
+    a {
+        color: #77aeff
+    }
+
+    .teams-button {
+        background-color: #235d8c;
+        color: var(--max-contrast-color);
+        padding: 8px 16px;
+        border-radius: 5px;
+        text-decoration: none;
+        font-weight: bold;
+        transition: background-color 0.2s ease;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+        margin-left: auto;
+    }
+
+        .teams-button:hover {
+            background-color: #3577ad;
+            color: var(--max-contrast-color);
+            text-decoration: none;
+        }
 
     .team-table {
         width: 100%;
         border-collapse: collapse;
-        background: white;
+        background: var(--table-background);
     }
 
         .team-table th, .team-table td {
             padding: 10px;
-            border: 1px solid #ccc;
+            border: 1px solid var( --table-border-color);
         }
 
         .team-table th {
-            background: #2ecc71;
-            color: white;
+            background: var(--table-head-color);
+            color: var(--max-contrast-color);
         }
 
             .team-table th a {
-                color: white;
+                color: var(--max-contrast-color);
                 text-decoration: none;
                 display: block;
             }

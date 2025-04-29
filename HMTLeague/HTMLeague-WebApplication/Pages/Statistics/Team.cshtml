@@ -4,7 +4,7 @@
     ViewData["Title"] = "Team Statistics";
 }
 
-<h2>Team Statistics</h2>
+<h2 class="text-color">Team Statistics</h2>
 @if (Model.TeamInfo != null)
 {
     <div class="stat-container">
@@ -263,8 +263,33 @@ else
 }
 
 <style>
+
+    body {
+        background-color: var(--dark-background);
+    }
+
+    .text-color {
+        color: var(--max-contrast-color);
+    }
+
+    label {
+        color: var(--max-contrast-color);
+    }
+
+    .h2 {
+        color: var(--max-contrast-color);
+    }
+
+    p {
+        color: var(--max-contrast-color)
+    }
+
+    ::marker {
+        color: var(--max-contrast-color)
+    }
+
     .stat-container {
-        background: white;
+        background: #1c1c1c;
         padding: 20px;
         border-radius: 10px;
         box-shadow: 0 2px 10px rgba(0,0,0,0.1);
@@ -272,21 +297,14 @@ else
         margin-bottom: 50px;
     }
 
-        .stat-container h3, h4 {
+        .stat-container h3, h4, h5 {
             margin-top: 15px;
+            color: var(--max-contrast-color)
         }
 
         .stat-container a {
             text-decoration: none;
-            color: darkblue;
-        }
-
-    .player-list {
-        padding-left: 20px;
-    }
-
-        .player-list li {
-            margin-bottom: 5px;
+            color: #0d6efd;
         }
 
     .form-group {
@@ -298,6 +316,18 @@ else
         padding: 8px;
         border: 1px solid #ddd;
         border-radius: 4px;
+    }
+
+    .modal-title {
+        color: var(--max-contrast-color);
+    }
+
+    .modal-content {
+        background-color: #202020;
+    }
+
+    .modal-body {
+        color: var(--max-contrast-color);
     }
 
     .button-group {

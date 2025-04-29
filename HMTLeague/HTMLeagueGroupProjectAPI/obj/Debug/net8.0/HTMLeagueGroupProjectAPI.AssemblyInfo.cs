@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HTMLeagueGroupProjectAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4707b3a4f7f5b7d3a5638494968a11b8caaf27a7")]
 [assembly: System.Reflection.AssemblyProductAttribute("HTMLeagueGroupProjectAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HTMLeagueGroupProjectAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

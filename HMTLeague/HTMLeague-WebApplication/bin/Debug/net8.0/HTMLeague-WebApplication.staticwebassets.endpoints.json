@@ -85,51 +85,6 @@
       ]
     },
     {
-      "Route": "css/site.66lbx2tf73.css",
-      "AssetFile": "css/site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1177"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Eif3wbXzf/KgCahhcpXG/YAFLsvlD9bt1Akvm/bTmNI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 25 Apr 2025 19:32:23 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "66lbx2tf73"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-Eif3wbXzf/KgCahhcpXG/YAFLsvlD9bt1Akvm/bTmNI="
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        }
-      ]
-    },
-    {
       "Route": "css/site.css",
       "AssetFile": "css/site.css",
       "Selectors": [],
@@ -144,7 +99,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1177"
+          "Value": "1336"
         },
         {
           "Name": "Content-Type",
@@ -152,17 +107,62 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Eif3wbXzf/KgCahhcpXG/YAFLsvlD9bt1Akvm/bTmNI=\""
+          "Value": "\"ARQDEvr/arWvFYe8NiXzmNj/Ngtcmgl2GzCZD8CxkX8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 25 Apr 2025 19:32:23 GMT"
+          "Value": "Tue, 29 Apr 2025 00:41:59 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Eif3wbXzf/KgCahhcpXG/YAFLsvlD9bt1Akvm/bTmNI="
+          "Value": "sha256-ARQDEvr/arWvFYe8NiXzmNj/Ngtcmgl2GzCZD8CxkX8="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.rh8on1tvt2.css",
+      "AssetFile": "css/site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1336"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ARQDEvr/arWvFYe8NiXzmNj/Ngtcmgl2GzCZD8CxkX8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 00:41:59 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rh8on1tvt2"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ARQDEvr/arWvFYe8NiXzmNj/Ngtcmgl2GzCZD8CxkX8="
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
         }
       ]
     },
@@ -249,6 +249,170 @@
       ]
     },
     {
+      "Route": "images/CSGO-background 3.jpg",
+      "AssetFile": "images/CSGO-background 3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8129"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pTiQqnzX/yth1YwIyrXP8kQdgrX1Z0HZ4vOw6vO7xbE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Apr 2025 23:42:09 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-pTiQqnzX/yth1YwIyrXP8kQdgrX1Z0HZ4vOw6vO7xbE="
+        }
+      ]
+    },
+    {
+      "Route": "images/CSGO-background 3.lwtlucamoy.jpg",
+      "AssetFile": "images/CSGO-background 3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8129"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pTiQqnzX/yth1YwIyrXP8kQdgrX1Z0HZ4vOw6vO7xbE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Apr 2025 23:42:09 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lwtlucamoy"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-pTiQqnzX/yth1YwIyrXP8kQdgrX1Z0HZ4vOw6vO7xbE="
+        },
+        {
+          "Name": "label",
+          "Value": "images/CSGO-background 3.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "images/CSGO-background 4.jpg",
+      "AssetFile": "images/CSGO-background 4.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "235360"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xYaADfNDABvG2/WhfA7Ls2jcHlIziJm16s1Wll1fqYc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Apr 2025 23:42:09 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xYaADfNDABvG2/WhfA7Ls2jcHlIziJm16s1Wll1fqYc="
+        }
+      ]
+    },
+    {
+      "Route": "images/CSGO-background 4.npiaotti7g.jpg",
+      "AssetFile": "images/CSGO-background 4.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "235360"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xYaADfNDABvG2/WhfA7Ls2jcHlIziJm16s1Wll1fqYc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Apr 2025 23:42:09 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "npiaotti7g"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xYaADfNDABvG2/WhfA7Ls2jcHlIziJm16s1Wll1fqYc="
+        },
+        {
+          "Name": "label",
+          "Value": "images/CSGO-background 4.jpg"
+        }
+      ]
+    },
+    {
       "Route": "images/CSGO-background-2.cq17skiagu.jpg",
       "AssetFile": "images/CSGO-background-2.jpg",
       "Selectors": [],
@@ -275,7 +439,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 22 Apr 2025 17:31:12 GMT"
+          "Value": "Mon, 28 Apr 2025 23:42:09 GMT"
         }
       ],
       "EndpointProperties": [
@@ -320,13 +484,177 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 22 Apr 2025 17:31:12 GMT"
+          "Value": "Mon, 28 Apr 2025 23:42:09 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
           "Value": "sha256-hBDNAaSsIZxCDs3ef5sUPA13M1WCqjwRj4fOc1pvz4I="
+        }
+      ]
+    },
+    {
+      "Route": "images/NBA-background 3.8lfiyiais1.jpg",
+      "AssetFile": "images/NBA-background 3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29109"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bCnbeLABrchfZCiIcvVyiOcc7VpusaHHhHjZR5zFfGA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Apr 2025 23:42:09 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8lfiyiais1"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-bCnbeLABrchfZCiIcvVyiOcc7VpusaHHhHjZR5zFfGA="
+        },
+        {
+          "Name": "label",
+          "Value": "images/NBA-background 3.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "images/NBA-background 3.jpg",
+      "AssetFile": "images/NBA-background 3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29109"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bCnbeLABrchfZCiIcvVyiOcc7VpusaHHhHjZR5zFfGA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Apr 2025 23:42:09 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-bCnbeLABrchfZCiIcvVyiOcc7VpusaHHhHjZR5zFfGA="
+        }
+      ]
+    },
+    {
+      "Route": "images/NBA-background 5.1rllg02vzk.jpg",
+      "AssetFile": "images/NBA-background 5.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "268602"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"o64rHWvjitXZkUajvByNmMPP1arKuAkFRBvYZ0tI7pc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Apr 2025 23:42:09 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1rllg02vzk"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-o64rHWvjitXZkUajvByNmMPP1arKuAkFRBvYZ0tI7pc="
+        },
+        {
+          "Name": "label",
+          "Value": "images/NBA-background 5.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "images/NBA-background 5.jpg",
+      "AssetFile": "images/NBA-background 5.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "268602"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"o64rHWvjitXZkUajvByNmMPP1arKuAkFRBvYZ0tI7pc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Apr 2025 23:42:09 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-o64rHWvjitXZkUajvByNmMPP1arKuAkFRBvYZ0tI7pc="
         }
       ]
     },
@@ -357,7 +685,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 22 Apr 2025 17:31:12 GMT"
+          "Value": "Mon, 28 Apr 2025 23:42:09 GMT"
         }
       ],
       "EndpointProperties": [
@@ -402,13 +730,177 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 22 Apr 2025 17:31:12 GMT"
+          "Value": "Mon, 28 Apr 2025 23:42:09 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
           "Value": "sha256-4k6Yyb8gFYiYGZ7phU9dXn8T/+hRRI2SkL7fJP/PQ3c="
+        }
+      ]
+    },
+    {
+      "Route": "images/NFL-background 1.fml5djbtbh.jpg",
+      "AssetFile": "images/NFL-background 1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "21160"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Sbry8kNeuQyRBmSHtv4DG/x13tiDjKCctRokwMUnZcg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Apr 2025 23:42:09 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fml5djbtbh"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Sbry8kNeuQyRBmSHtv4DG/x13tiDjKCctRokwMUnZcg="
+        },
+        {
+          "Name": "label",
+          "Value": "images/NFL-background 1.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "images/NFL-background 1.jpg",
+      "AssetFile": "images/NFL-background 1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "21160"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Sbry8kNeuQyRBmSHtv4DG/x13tiDjKCctRokwMUnZcg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Apr 2025 23:42:09 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Sbry8kNeuQyRBmSHtv4DG/x13tiDjKCctRokwMUnZcg="
+        }
+      ]
+    },
+    {
+      "Route": "images/NFL-background 3.f9x6jtlcmz.jpg",
+      "AssetFile": "images/NFL-background 3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33185"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HTuWD22M5tqMxDlOh6x37xi6EjbVWjOsnbxJ+sRxrA0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Apr 2025 23:42:09 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "f9x6jtlcmz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HTuWD22M5tqMxDlOh6x37xi6EjbVWjOsnbxJ+sRxrA0="
+        },
+        {
+          "Name": "label",
+          "Value": "images/NFL-background 3.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "images/NFL-background 3.jpg",
+      "AssetFile": "images/NFL-background 3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33185"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HTuWD22M5tqMxDlOh6x37xi6EjbVWjOsnbxJ+sRxrA0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Apr 2025 23:42:09 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HTuWD22M5tqMxDlOh6x37xi6EjbVWjOsnbxJ+sRxrA0="
         }
       ]
     },
@@ -439,7 +931,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 22 Apr 2025 17:31:12 GMT"
+          "Value": "Mon, 28 Apr 2025 23:42:09 GMT"
         }
       ],
       "EndpointProperties": [
@@ -484,7 +976,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 22 Apr 2025 17:31:12 GMT"
+          "Value": "Mon, 28 Apr 2025 23:42:09 GMT"
         }
       ],
       "EndpointProperties": [
@@ -521,7 +1013,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 25 Apr 2025 19:32:23 GMT"
+          "Value": "Mon, 28 Apr 2025 23:42:09 GMT"
         }
       ],
       "EndpointProperties": [
@@ -566,13 +1058,95 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 25 Apr 2025 19:32:23 GMT"
+          "Value": "Mon, 28 Apr 2025 23:42:09 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
           "Value": "sha256-dtNjDvfM8X6cjkhmcfwDlarCOpe/hmhi1Pwn9SnDasg="
+        }
+      ]
+    },
+    {
+      "Route": "images/SportsChoice-background 3.1ii84o8ohi.jpg",
+      "AssetFile": "images/SportsChoice-background 3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "141504"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"V4zssuEYi2eMGYnwtOTj4aO4SvFoFrkHSNK8hNulIEI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Apr 2025 23:42:09 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1ii84o8ohi"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-V4zssuEYi2eMGYnwtOTj4aO4SvFoFrkHSNK8hNulIEI="
+        },
+        {
+          "Name": "label",
+          "Value": "images/SportsChoice-background 3.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "images/SportsChoice-background 3.jpg",
+      "AssetFile": "images/SportsChoice-background 3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "141504"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"V4zssuEYi2eMGYnwtOTj4aO4SvFoFrkHSNK8hNulIEI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Apr 2025 23:42:09 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-V4zssuEYi2eMGYnwtOTj4aO4SvFoFrkHSNK8hNulIEI="
         }
       ]
     },
@@ -603,7 +1177,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 25 Apr 2025 19:32:23 GMT"
+          "Value": "Mon, 28 Apr 2025 23:42:09 GMT"
         }
       ],
       "EndpointProperties": [
@@ -648,7 +1222,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 25 Apr 2025 19:32:23 GMT"
+          "Value": "Mon, 28 Apr 2025 23:42:09 GMT"
         }
       ],
       "EndpointProperties": [

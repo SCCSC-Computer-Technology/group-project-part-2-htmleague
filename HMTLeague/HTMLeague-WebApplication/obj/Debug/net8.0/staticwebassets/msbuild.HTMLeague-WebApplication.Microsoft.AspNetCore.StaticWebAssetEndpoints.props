@@ -1,16 +1,16 @@
 ﻿<Project>
   <ItemGroup>
-    <StaticWebAssetEndpoint Include="_content/HTMLeague-WebApplication/css/site.66lbx2tf73.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"66lbx2tf73"},{"Name":"integrity","Value":"sha256-Eif3wbXzf/KgCahhcpXG/YAFLsvlD9bt1Akvm/bTmNI="},{"Name":"label","Value":"_content/HTMLeague-WebApplication/css/site.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1177"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022Eif3wbXzf/KgCahhcpXG/YAFLsvlD9bt1Akvm/bTmNI=\u0022"},{"Name":"Last-Modified","Value":"Fri, 25 Apr 2025 19:32:23 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/HTMLeague-WebApplication/css/site.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Eif3wbXzf/KgCahhcpXG/YAFLsvlD9bt1Akvm/bTmNI="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1177"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022Eif3wbXzf/KgCahhcpXG/YAFLsvlD9bt1Akvm/bTmNI=\u0022"},{"Name":"Last-Modified","Value":"Fri, 25 Apr 2025 19:32:23 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-ARQDEvr/arWvFYe8NiXzmNj/Ngtcmgl2GzCZD8CxkX8="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1336"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022ARQDEvr/arWvFYe8NiXzmNj/Ngtcmgl2GzCZD8CxkX8=\u0022"},{"Name":"Last-Modified","Value":"Tue, 29 Apr 2025 00:41:59 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HTMLeague-WebApplication/css/site.rh8on1tvt2.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"rh8on1tvt2"},{"Name":"integrity","Value":"sha256-ARQDEvr/arWvFYe8NiXzmNj/Ngtcmgl2GzCZD8CxkX8="},{"Name":"label","Value":"_content/HTMLeague-WebApplication/css/site.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1336"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022ARQDEvr/arWvFYe8NiXzmNj/Ngtcmgl2GzCZD8CxkX8=\u0022"},{"Name":"Last-Modified","Value":"Tue, 29 Apr 2025 00:41:59 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/HTMLeague-WebApplication/favicon.61n19gt1b8.ico">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</AssetFile>
@@ -36,65 +36,149 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"l7ls6vniki"},{"Name":"integrity","Value":"sha256-nxMxgRIY1/G2hhMzK1otQ1TAMrWWHAI6/sO6um4m\u002BBM="},{"Name":"label","Value":"_content/HTMLeague-WebApplication/HTMLeague-WebApplication.bundle.scp.css"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1142"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022nxMxgRIY1/G2hhMzK1otQ1TAMrWWHAI6/sO6um4m\u002BBM=\u0022"},{"Name":"Last-Modified","Value":"Fri, 25 Apr 2025 19:32:22 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HTMLeague-WebApplication/images/CSGO-background 3.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\CSGO-background 3.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-pTiQqnzX/yth1YwIyrXP8kQdgrX1Z0HZ4vOw6vO7xbE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"8129"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022pTiQqnzX/yth1YwIyrXP8kQdgrX1Z0HZ4vOw6vO7xbE=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 23:42:09 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HTMLeague-WebApplication/images/CSGO-background 3.lwtlucamoy.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\CSGO-background 3.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"lwtlucamoy"},{"Name":"integrity","Value":"sha256-pTiQqnzX/yth1YwIyrXP8kQdgrX1Z0HZ4vOw6vO7xbE="},{"Name":"label","Value":"_content/HTMLeague-WebApplication/images/CSGO-background 3.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"8129"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022pTiQqnzX/yth1YwIyrXP8kQdgrX1Z0HZ4vOw6vO7xbE=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 23:42:09 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HTMLeague-WebApplication/images/CSGO-background 4.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\CSGO-background 4.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-xYaADfNDABvG2/WhfA7Ls2jcHlIziJm16s1Wll1fqYc="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"235360"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022xYaADfNDABvG2/WhfA7Ls2jcHlIziJm16s1Wll1fqYc=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 23:42:09 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HTMLeague-WebApplication/images/CSGO-background 4.npiaotti7g.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\CSGO-background 4.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"npiaotti7g"},{"Name":"integrity","Value":"sha256-xYaADfNDABvG2/WhfA7Ls2jcHlIziJm16s1Wll1fqYc="},{"Name":"label","Value":"_content/HTMLeague-WebApplication/images/CSGO-background 4.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"235360"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022xYaADfNDABvG2/WhfA7Ls2jcHlIziJm16s1Wll1fqYc=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 23:42:09 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/HTMLeague-WebApplication/images/CSGO-background-2.cq17skiagu.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\CSGO-background-2.jpg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"cq17skiagu"},{"Name":"integrity","Value":"sha256-hBDNAaSsIZxCDs3ef5sUPA13M1WCqjwRj4fOc1pvz4I="},{"Name":"label","Value":"_content/HTMLeague-WebApplication/images/CSGO-background-2.jpg"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"17498"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022hBDNAaSsIZxCDs3ef5sUPA13M1WCqjwRj4fOc1pvz4I=\u0022"},{"Name":"Last-Modified","Value":"Tue, 22 Apr 2025 17:31:12 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"17498"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022hBDNAaSsIZxCDs3ef5sUPA13M1WCqjwRj4fOc1pvz4I=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 23:42:09 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/HTMLeague-WebApplication/images/CSGO-background-2.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\CSGO-background-2.jpg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-hBDNAaSsIZxCDs3ef5sUPA13M1WCqjwRj4fOc1pvz4I="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"17498"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022hBDNAaSsIZxCDs3ef5sUPA13M1WCqjwRj4fOc1pvz4I=\u0022"},{"Name":"Last-Modified","Value":"Tue, 22 Apr 2025 17:31:12 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"17498"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022hBDNAaSsIZxCDs3ef5sUPA13M1WCqjwRj4fOc1pvz4I=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 23:42:09 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HTMLeague-WebApplication/images/NBA-background 3.8lfiyiais1.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\NBA-background 3.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"8lfiyiais1"},{"Name":"integrity","Value":"sha256-bCnbeLABrchfZCiIcvVyiOcc7VpusaHHhHjZR5zFfGA="},{"Name":"label","Value":"_content/HTMLeague-WebApplication/images/NBA-background 3.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"29109"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022bCnbeLABrchfZCiIcvVyiOcc7VpusaHHhHjZR5zFfGA=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 23:42:09 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HTMLeague-WebApplication/images/NBA-background 3.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\NBA-background 3.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-bCnbeLABrchfZCiIcvVyiOcc7VpusaHHhHjZR5zFfGA="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"29109"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022bCnbeLABrchfZCiIcvVyiOcc7VpusaHHhHjZR5zFfGA=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 23:42:09 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HTMLeague-WebApplication/images/NBA-background 5.1rllg02vzk.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\NBA-background 5.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"1rllg02vzk"},{"Name":"integrity","Value":"sha256-o64rHWvjitXZkUajvByNmMPP1arKuAkFRBvYZ0tI7pc="},{"Name":"label","Value":"_content/HTMLeague-WebApplication/images/NBA-background 5.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"268602"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022o64rHWvjitXZkUajvByNmMPP1arKuAkFRBvYZ0tI7pc=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 23:42:09 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HTMLeague-WebApplication/images/NBA-background 5.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\NBA-background 5.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-o64rHWvjitXZkUajvByNmMPP1arKuAkFRBvYZ0tI7pc="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"268602"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022o64rHWvjitXZkUajvByNmMPP1arKuAkFRBvYZ0tI7pc=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 23:42:09 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/HTMLeague-WebApplication/images/NBA-background-2.iju2iui8cj.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\NBA-background-2.jpg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"iju2iui8cj"},{"Name":"integrity","Value":"sha256-4k6Yyb8gFYiYGZ7phU9dXn8T/\u002BhRRI2SkL7fJP/PQ3c="},{"Name":"label","Value":"_content/HTMLeague-WebApplication/images/NBA-background-2.jpg"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"6489"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00224k6Yyb8gFYiYGZ7phU9dXn8T/\u002BhRRI2SkL7fJP/PQ3c=\u0022"},{"Name":"Last-Modified","Value":"Tue, 22 Apr 2025 17:31:12 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"6489"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00224k6Yyb8gFYiYGZ7phU9dXn8T/\u002BhRRI2SkL7fJP/PQ3c=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 23:42:09 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/HTMLeague-WebApplication/images/NBA-background-2.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\NBA-background-2.jpg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-4k6Yyb8gFYiYGZ7phU9dXn8T/\u002BhRRI2SkL7fJP/PQ3c="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"6489"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00224k6Yyb8gFYiYGZ7phU9dXn8T/\u002BhRRI2SkL7fJP/PQ3c=\u0022"},{"Name":"Last-Modified","Value":"Tue, 22 Apr 2025 17:31:12 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"6489"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00224k6Yyb8gFYiYGZ7phU9dXn8T/\u002BhRRI2SkL7fJP/PQ3c=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 23:42:09 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HTMLeague-WebApplication/images/NFL-background 1.fml5djbtbh.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\NFL-background 1.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"fml5djbtbh"},{"Name":"integrity","Value":"sha256-Sbry8kNeuQyRBmSHtv4DG/x13tiDjKCctRokwMUnZcg="},{"Name":"label","Value":"_content/HTMLeague-WebApplication/images/NFL-background 1.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"21160"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022Sbry8kNeuQyRBmSHtv4DG/x13tiDjKCctRokwMUnZcg=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 23:42:09 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HTMLeague-WebApplication/images/NFL-background 1.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\NFL-background 1.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Sbry8kNeuQyRBmSHtv4DG/x13tiDjKCctRokwMUnZcg="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"21160"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022Sbry8kNeuQyRBmSHtv4DG/x13tiDjKCctRokwMUnZcg=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 23:42:09 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HTMLeague-WebApplication/images/NFL-background 3.f9x6jtlcmz.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\NFL-background 3.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"f9x6jtlcmz"},{"Name":"integrity","Value":"sha256-HTuWD22M5tqMxDlOh6x37xi6EjbVWjOsnbxJ\u002BsRxrA0="},{"Name":"label","Value":"_content/HTMLeague-WebApplication/images/NFL-background 3.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"33185"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022HTuWD22M5tqMxDlOh6x37xi6EjbVWjOsnbxJ\u002BsRxrA0=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 23:42:09 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HTMLeague-WebApplication/images/NFL-background 3.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\NFL-background 3.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-HTuWD22M5tqMxDlOh6x37xi6EjbVWjOsnbxJ\u002BsRxrA0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"33185"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022HTuWD22M5tqMxDlOh6x37xi6EjbVWjOsnbxJ\u002BsRxrA0=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 23:42:09 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/HTMLeague-WebApplication/images/NFL-background-3.f9x6jtlcmz.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\NFL-background-3.jpg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"f9x6jtlcmz"},{"Name":"integrity","Value":"sha256-HTuWD22M5tqMxDlOh6x37xi6EjbVWjOsnbxJ\u002BsRxrA0="},{"Name":"label","Value":"_content/HTMLeague-WebApplication/images/NFL-background-3.jpg"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"33185"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022HTuWD22M5tqMxDlOh6x37xi6EjbVWjOsnbxJ\u002BsRxrA0=\u0022"},{"Name":"Last-Modified","Value":"Tue, 22 Apr 2025 17:31:12 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"33185"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022HTuWD22M5tqMxDlOh6x37xi6EjbVWjOsnbxJ\u002BsRxrA0=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 23:42:09 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/HTMLeague-WebApplication/images/NFL-background-3.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\NFL-background-3.jpg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-HTuWD22M5tqMxDlOh6x37xi6EjbVWjOsnbxJ\u002BsRxrA0="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"33185"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022HTuWD22M5tqMxDlOh6x37xi6EjbVWjOsnbxJ\u002BsRxrA0=\u0022"},{"Name":"Last-Modified","Value":"Tue, 22 Apr 2025 17:31:12 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"33185"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022HTuWD22M5tqMxDlOh6x37xi6EjbVWjOsnbxJ\u002BsRxrA0=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 23:42:09 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/HTMLeague-WebApplication/images/SportsChoice-background 1.a0g2jb7gp2.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\SportsChoice-background 1.jpg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"a0g2jb7gp2"},{"Name":"integrity","Value":"sha256-dtNjDvfM8X6cjkhmcfwDlarCOpe/hmhi1Pwn9SnDasg="},{"Name":"label","Value":"_content/HTMLeague-WebApplication/images/SportsChoice-background 1.jpg"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"17010"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022dtNjDvfM8X6cjkhmcfwDlarCOpe/hmhi1Pwn9SnDasg=\u0022"},{"Name":"Last-Modified","Value":"Fri, 25 Apr 2025 19:32:23 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"17010"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022dtNjDvfM8X6cjkhmcfwDlarCOpe/hmhi1Pwn9SnDasg=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 23:42:09 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/HTMLeague-WebApplication/images/SportsChoice-background 1.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\SportsChoice-background 1.jpg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-dtNjDvfM8X6cjkhmcfwDlarCOpe/hmhi1Pwn9SnDasg="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"17010"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022dtNjDvfM8X6cjkhmcfwDlarCOpe/hmhi1Pwn9SnDasg=\u0022"},{"Name":"Last-Modified","Value":"Fri, 25 Apr 2025 19:32:23 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"17010"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022dtNjDvfM8X6cjkhmcfwDlarCOpe/hmhi1Pwn9SnDasg=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 23:42:09 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HTMLeague-WebApplication/images/SportsChoice-background 3.1ii84o8ohi.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\SportsChoice-background 3.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"1ii84o8ohi"},{"Name":"integrity","Value":"sha256-V4zssuEYi2eMGYnwtOTj4aO4SvFoFrkHSNK8hNulIEI="},{"Name":"label","Value":"_content/HTMLeague-WebApplication/images/SportsChoice-background 3.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"141504"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022V4zssuEYi2eMGYnwtOTj4aO4SvFoFrkHSNK8hNulIEI=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 23:42:09 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HTMLeague-WebApplication/images/SportsChoice-background 3.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\SportsChoice-background 3.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-V4zssuEYi2eMGYnwtOTj4aO4SvFoFrkHSNK8hNulIEI="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"141504"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022V4zssuEYi2eMGYnwtOTj4aO4SvFoFrkHSNK8hNulIEI=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 23:42:09 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/HTMLeague-WebApplication/images/Stadium-background.iffin8f3az.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\Stadium-background.jpg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"iffin8f3az"},{"Name":"integrity","Value":"sha256-nmWynxywwhlGQIg8eUB52DbjVG7ITHcTKcNFMIbwS88="},{"Name":"label","Value":"_content/HTMLeague-WebApplication/images/Stadium-background.jpg"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"112986"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022nmWynxywwhlGQIg8eUB52DbjVG7ITHcTKcNFMIbwS88=\u0022"},{"Name":"Last-Modified","Value":"Fri, 25 Apr 2025 19:32:23 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"112986"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022nmWynxywwhlGQIg8eUB52DbjVG7ITHcTKcNFMIbwS88=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 23:42:09 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/HTMLeague-WebApplication/images/Stadium-background.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\Stadium-background.jpg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-nmWynxywwhlGQIg8eUB52DbjVG7ITHcTKcNFMIbwS88="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"112986"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022nmWynxywwhlGQIg8eUB52DbjVG7ITHcTKcNFMIbwS88=\u0022"},{"Name":"Last-Modified","Value":"Fri, 25 Apr 2025 19:32:23 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"112986"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022nmWynxywwhlGQIg8eUB52DbjVG7ITHcTKcNFMIbwS88=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 23:42:09 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/HTMLeague-WebApplication/js/site.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>

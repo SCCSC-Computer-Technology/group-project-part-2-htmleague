@@ -1,9 +1,16 @@
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\images\CSGO-background 3.jpg
+wwwroot\images\CSGO-background 4.jpg
 wwwroot\images\CSGO-background-2.jpg
+wwwroot\images\NBA-background 3.jpg
+wwwroot\images\NBA-background 5.jpg
 wwwroot\images\NBA-background-2.jpg
+wwwroot\images\NFL-background 1.jpg
+wwwroot\images\NFL-background 3.jpg
 wwwroot\images\NFL-background-3.jpg
 wwwroot\images\SportsChoice-background 1.jpg
+wwwroot\images\SportsChoice-background 3.jpg
 wwwroot\images\Stadium-background.jpg
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css

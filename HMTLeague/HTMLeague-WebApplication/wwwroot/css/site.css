@@ -39,6 +39,11 @@ body {
 
 :root {
     --dark-color: #000;
+    --dark-background: #0c0c0c;
+    --table-background: ##101010;
+    --table-head-color: #004ec6;
+    --table-border-color: #c6c6c6;
+    --max-contrast-color: #dedede;
 }
 
 .login-btn {
@@ -54,6 +59,6 @@ body {
     .login-btn:hover,
     .login-btn:focus {
         background-color: var(--dark-color);
-        color: var(--primary-color);
+        color: white;
         text-decoration: none;
     }

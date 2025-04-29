@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "MLSq6K3clVxF/Tq31qmGYytaeeoRZFykWVhiQBnQJ6Y=",
+  "Hash": "IdGVh1KXc9Ua+dEkMjH3qIu211Z9YCBCXTvrr3Ocewc=",
   "Source": "HTMLeagueGroupProjectAPI",
   "BasePath": "_content/HTMLeagueGroupProjectAPI",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }
