@@ -1,0 +1,231 @@
+﻿@page
+@model HTMLeague_WebApplication.Pages.Players.PlayersCSGOModel
+@{
+    ViewData["Title"] = "CS:GO Players";
+
+    // Get sort direction
+    string GetSortDirection(string column)
+    {
+        if (Model.SortColumn == column)
+        {
+            if (Model.SortDirection == "Ascending")
+            {
+                return "Descending";
+            }
+            else
+            {
+                return "Ascending";
+            }
+        }
+        else
+        {
+            return "Ascending";
+        }
+    }
+
+    // Get sort indicator
+    string GetSortIndicator(string column)
+    {
+        if (Model.SortColumn == column)
+        {
+            if (Model.SortDirection == "Ascending")
+            {
+                return "▲";
+            }
+            else
+            {
+                return "▼";
+            }
+        }
+        else
+        {
+            return "";
+        }
+    }
+}
+
+<div class="header-container">
+    <h2 class="text-color">CS:GO Players</h2>
+    <a href="/Teams/CSGO" class="teams-button">Teams</a>
+</div>
+
+<table class="team-table">
+    <thead>
+        <tr>
+            <th>
+                <a asp-page="./CSGO" asp-route-sortColumn="Name"
+                   asp-route-sortDirection="@GetSortDirection("Name")">
+                    Player Name @GetSortIndicator("Name")
+                </a>
+            </th>
+            <th>
+                <a asp-page="./CSGO" asp-route-sortColumn="TeamName"
+                   asp-route-sortDirection="@GetSortDirection("TeamName")">
+                    Team @GetSortIndicator("TeamName")
+                </a>
+            </th>
+            <th>
+                <a asp-page="./CSGO" asp-route-sortColumn="Maps"
+                   asp-route-sortDirection="@GetSortDirection("Maps")">
+                    Maps Played @GetSortIndicator("Maps")
+                </a>
+            </th>
+            <th>
+                <a asp-page="./CSGO" asp-route-sortColumn="Rounds"
+                   asp-route-sortDirection="@GetSortDirection("Rounds")">
+                    Rounds @GetSortIndicator("Rounds")
+                </a>
+            </th>
+            <th>
+                <a asp-page="./CSGO" asp-route-sortColumn="KdDiff"
+                   asp-route-sortDirection="@GetSortDirection("KdDiff")">
+                    K/D Diff @GetSortIndicator("KdDiff")
+                </a>
+            </th>
+            <th>
+                <a asp-page="./CSGO" asp-route-sortColumn="Kd"
+                   asp-route-sortDirection="@GetSortDirection("Kd")">
+                    K/D Ratio @GetSortIndicator("Kd")
+                </a>
+            </th>
+            <th>
+                <a asp-page="./CSGO" asp-route-sortColumn="Rating"
+                   asp-route-sortDirection="@GetSortDirection("Rating")">
+                    Rating @GetSortIndicator("Rating")
+                </a>
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model.Players != null)
+        {
+            foreach (var player in Model.Players)
+            {
+                <tr>
+                    <td>
+                        <a asp-page="/Statistics/Player"
+                           asp-route-id="@player.PlayerStat.PlayerID"
+                           asp-route-sport="CSGO">
+                            @player.PlayerStat.Player?.PlayerName
+                        </a>
+                    </td>
+                    <td>
+                        @if (player.TeamID.HasValue)
+                        {
+                            <a asp-page="/Statistics/Team"
+                               asp-route-id="@player.TeamID"
+                               asp-route-sport="CSGO">
+                                @player.TeamName
+                            </a>
+                        }
+                        else
+                        {
+                            @player.TeamName
+                        }
+                    </td>
+                    <td>@player.PlayerStat.TotalMaps</td>
+                    <td>@player.PlayerStat.TotalRounds</td>
+                    <td>@player.PlayerStat.KdDiff</td>
+                    <td>@player.PlayerStat.Kd</td>
+                    <td>@player.PlayerStat.Rating</td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="7">No players found</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<style>
+
+    .header-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+    body {
+        background-color: var(--dark-background)
+    }
+
+    .tabs {
+        margin-bottom: 20px;
+    }
+
+    .tab {
+        display: inline-block;
+        padding: 10px 20px;
+        background: #e0f0e9;
+        margin-right: 5px;
+        border-radius: 5px;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .selected {
+        background: var(--table-head-color);
+        color: var(--max-contrast-color);
+    }
+
+    .text-color {
+        color: var(--max-contrast-color)
+    }
+
+    td {
+        color: var(--max-contrast-color)
+    }
+
+    a {
+        color: #77aeff
+    }
+
+    .teams-button {
+        background-color: #235d8c;
+        color: var(--max-contrast-color);
+        padding: 8px 16px;
+        border-radius: 5px;
+        text-decoration: none;
+        font-weight: bold;
+        transition: background-color 0.2s ease;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+        margin-left: auto;
+    }
+
+        .teams-button:hover {
+            background-color: #3577ad;
+            color: var(--max-contrast-color);
+            text-decoration: none;
+        }
+
+    .team-table {
+        width: 100%;
+        border-collapse: collapse;
+        background: var(--table-background);
+    }
+
+        .team-table th, .team-table td {
+            padding: 10px;
+            border: 1px solid var( --table-border-color);
+        }
+
+        .team-table th {
+            background: var(--table-head-color);
+            color: var(--max-contrast-color);
+        }
+
+            .team-table th a {
+                color: var(--max-contrast-color);
+                text-decoration: none;
+                display: block;
+            }
+
+                .team-table th a:hover {
+                    text-decoration: underline;
+                }
+</style>

@@ -1,0 +1,233 @@
+﻿@page
+@model HTMLeague_WebApplication.Pages.Players.PlayersNFLModel
+@{
+    ViewData["Title"] = "NFL Players";
+
+    // Get sort direction
+    string GetSortDirection(string column)
+    {
+        if (Model.SortColumn == column)
+        {
+            if (Model.SortDirection == "Ascending")
+            {
+                return "Descending";
+            }
+            else
+            {
+                return "Ascending";
+            }
+        }
+        else
+        {
+            return "Ascending";
+        }
+    }
+
+    // Get sort indicator
+    string GetSortIndicator(string column)
+    {
+        if (Model.SortColumn == column)
+        {
+            if (Model.SortDirection == "Ascending")
+            {
+                return "▲";
+            }
+            else
+            {
+                return "▼";
+            }
+        }
+        else
+        {
+            return "";
+        }
+    }
+}
+
+<div class="header-container">
+    <h2 class="text-color">NFL Players</h2>
+    <a href="/Teams/NFL" class="teams-button">Teams</a>
+</div>
+
+<table class="team-table">
+    <thead>
+        <tr>
+            <th>
+                <a asp-page="./NFL" asp-route-sortColumn="Name"
+                   asp-route-sortDirection="@GetSortDirection("Name")">
+                    Player Name @GetSortIndicator("Name")
+                </a>
+            </th>
+            <th>
+                <a asp-page="./NFL" asp-route-sortColumn="Team"
+                   asp-route-sortDirection="@GetSortDirection("Team")">
+                    Team @GetSortIndicator("Team")
+                </a>
+            </th>
+            <th>
+                <a asp-page="./NFL" asp-route-sortColumn="PassYards"
+                   asp-route-sortDirection="@GetSortDirection("PassYards")">
+                    Passing Yards @GetSortIndicator("PassYards")
+                </a>
+            </th>
+            <th>
+                <a asp-page="./NFL" asp-route-sortColumn="PassTDs"
+                   asp-route-sortDirection="@GetSortDirection("PassTDs")">
+                    Touchdown Passes @GetSortIndicator("PassTDs")
+                </a>
+            </th>
+            <th>
+                <a asp-page="./NFL" asp-route-sortColumn="Interceptions"
+                   asp-route-sortDirection="@GetSortDirection("Interceptions")">
+                    Interceptions @GetSortIndicator("Interceptions")
+                </a>
+            </th>
+            <th>
+                <a asp-page="./NFL" asp-route-sortColumn="RushYards"
+                   asp-route-sortDirection="@GetSortDirection("RushYards")">
+                    Rush Yards @GetSortIndicator("RushYards")
+                </a>
+            </th>
+            <th>
+                <a asp-page="./NFL" asp-route-sortColumn="RushTDs"
+                   asp-route-sortDirection="@GetSortDirection("RushTDs")">
+                    Rush Touchdowns @GetSortIndicator("RushTDs")
+                </a>
+            </th>
+            <th>
+                <a asp-page="./NFL" asp-route-sortColumn="RecYards"
+                   asp-route-sortDirection="@GetSortDirection("RecYards")">
+                    Receiving Yards @GetSortIndicator("RecYards")
+                </a>
+            </th>
+            <th>
+                <a asp-page="./NFL" asp-route-sortColumn="RecTDs"
+                   asp-route-sortDirection="@GetSortDirection("RecTDs")">
+                    Receiving Touchdowns @GetSortIndicator("RecTDs")
+                </a>
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model.Players != null)
+        {
+            foreach (var player in Model.Players)
+            {
+                <tr>
+                    <td>
+                        <a asp-page="/Statistics/Player"
+                           asp-route-id="@player.Player?.PlayerID"
+                           asp-route-sport="NFL">
+                            @player.Player?.FullName
+                        </a>
+                    </td>
+                    <td>
+                        <a asp-page="/Statistics/Team"
+                           asp-route-id="@player.Player?.TeamID"
+                           asp-route-sport="NFL">
+                            @player.TeamName
+                        </a>
+                    </td>
+
+                    <td>@(player.PassStats?.PassingYards ?? 0)</td>
+                    <td>@(player.PassStats?.TdPasses ?? 0)</td>
+                    <td>@(player.PassStats?.Interceptions ?? 0)</td>
+                    <td>@(player.RushStats?.RushYards ?? 0)</td>
+                    <td>@(player.RushStats?.RushTds ?? 0)</td>
+                    <td>@(player.ReceiveStats?.ReceivingYards ?? 0)</td>
+                    <td>@(player.ReceiveStats?.ReceivingTds ?? 0)</td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>
+
+<style>
+
+    .header-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+    body {
+        background-color: var(--dark-background)
+    }
+
+    .tabs {
+        margin-bottom: 10px;
+    }
+
+    .tab {
+        display: inline-block;
+        padding: 10px 20px;
+        background: #e0f0e9;
+        margin-right: 5px;
+        border-radius: 5px;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .selected {
+        background: var(--table-head-color);
+        color: var(--max-contrast-color);
+    }
+
+    .text-color {
+        color: var(--max-contrast-color)
+    }
+
+    td {
+        color: var(--max-contrast-color)
+    }
+
+    a {
+        color: #77aeff
+    }
+
+    .teams-button {
+        background-color: #235d8c;
+        color: var(--max-contrast-color);
+        padding: 8px 16px;
+        border-radius: 5px;
+        text-decoration: none;
+        font-weight: bold;
+        transition: background-color 0.2s ease;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+        margin-left: auto;
+    }
+
+        .teams-button:hover {
+            background-color: #3577ad;
+            color: var(--max-contrast-color);
+            text-decoration: none;
+        }
+
+    .team-table {
+        width: 100%;
+        border-collapse: collapse;
+        background: var(--table-background);
+    }
+
+        .team-table th, .team-table td {
+            padding: 10px;
+            border: 1px solid var( --table-border-color);
+        }
+
+        .team-table th {
+            background: var(--table-head-color);
+            color: var(--max-contrast-color);
+        }
+
+            .team-table th a {
+                color: var(--max-contrast-color);
+                text-decoration: none;
+                display: block;
+            }
+
+                .team-table th a:hover {
+                    text-decoration: underline;
+                }
+</style>

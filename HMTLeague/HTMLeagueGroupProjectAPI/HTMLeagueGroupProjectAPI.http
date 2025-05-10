@@ -1,0 +1,6 @@
+@HTMLeagueGroupProjectAPI_HostAddress = http://localhost:5146
+
+GET {{HTMLeagueGroupProjectAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

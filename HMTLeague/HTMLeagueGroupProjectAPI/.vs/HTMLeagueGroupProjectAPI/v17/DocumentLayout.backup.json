@@ -1,0 +1,76 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\adamq\\source\\repos\\HTMLeagueGroupProjectAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A52249CD-7883-4E53-B142-2D65CDB628F2}|..\\HTMLeagueDataContext\\HTMLeagueDataContext.csproj|c:\\users\\adamq\\source\\repos\\htmleaguedatacontext\\nbadataclasses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB47B3C4-390C-447B-9393-6FCEF93243A3}|HTMLeagueGroupProjectAPI.csproj|c:\\users\\adamq\\source\\repos\\htmleaguegroupprojectapi\\repositories\\csgorepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB47B3C4-390C-447B-9393-6FCEF93243A3}|HTMLeagueGroupProjectAPI.csproj|solutionrelative:repositories\\csgorepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB47B3C4-390C-447B-9393-6FCEF93243A3}|HTMLeagueGroupProjectAPI.csproj|c:\\users\\adamq\\source\\repos\\htmleaguegroupprojectapi\\repositories\\nbarepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB47B3C4-390C-447B-9393-6FCEF93243A3}|HTMLeagueGroupProjectAPI.csproj|solutionrelative:repositories\\nbarepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 228,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CsgoRepo.cs",
+              "DocumentMoniker": "C:\\Users\\adamq\\source\\repos\\HTMLeagueGroupProjectAPI\\Repositories\\CsgoRepo.cs",
+              "RelativeDocumentMoniker": "Repositories\\CsgoRepo.cs",
+              "ToolTip": "C:\\Users\\adamq\\source\\repos\\HTMLeagueGroupProjectAPI\\Repositories\\CsgoRepo.cs",
+              "RelativeToolTip": "Repositories\\CsgoRepo.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T04:13:05.384Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NbaDataClasses.cs",
+              "DocumentMoniker": "C:\\Users\\adamq\\source\\repos\\HTMLeagueDataContext\\NbaDataClasses.cs",
+              "RelativeDocumentMoniker": "..\\HTMLeagueDataContext\\NbaDataClasses.cs",
+              "ToolTip": "C:\\Users\\adamq\\source\\repos\\HTMLeagueDataContext\\NbaDataClasses.cs",
+              "RelativeToolTip": "..\\HTMLeagueDataContext\\NbaDataClasses.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T04:11:44.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NbaRepo.cs",
+              "DocumentMoniker": "C:\\Users\\adamq\\source\\repos\\HTMLeagueGroupProjectAPI\\Repositories\\NbaRepo.cs",
+              "RelativeDocumentMoniker": "Repositories\\NbaRepo.cs",
+              "ToolTip": "C:\\Users\\adamq\\source\\repos\\HTMLeagueGroupProjectAPI\\Repositories\\NbaRepo.cs",
+              "RelativeToolTip": "Repositories\\NbaRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T04:11:36.216Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

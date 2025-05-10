@@ -1,0 +1,31 @@
+﻿@page
+@model PrivacyModel
+@{
+    ViewData["Title"] = "Sport Choice";
+}
+@*Sport Choice background image page*@
+<style>
+    body {
+        background-image: url('images/SportsChoice-background 1.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+</style>
+
+@*Writing Design of the Sport Choice design*@
+<div>
+    <div class="text-center">
+        <div style="color:white; font-weight: bold;">
+            <h1>@ViewData["Title"]</h1>
+            <p style="color:green">Please choose your sport.</p>
+            <a href="Teams/CSGO"><img src="images/CSGO-background-2.jpg" /></a>
+            <a href="Teams/NFL"><img src="images/NFL-background-3.jpg" /></a>
+            <a href="Teams/NBA"><img src="images/NBA-background-2.jpg" /></a>
+        </div>
+    </div>
+</div>
+
+
+
+
